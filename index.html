@@ -19,13 +19,13 @@
 
 
     <link rel="stylesheet" href="./css/app.css">
-    <title>SpectrumWise</title>
+    <title>Enid Design</title>
 </head>
 <body>
     
     <header>
         <nav class="flex nav-container">
-            <h1 class="main_title"><a href="#"><span class="white_light"><img src="./img/logo.svg" alt=""></a></h1>
+            <h1 class="main_title"><a href="#">Enid<span>Design</span></a></h1>
 
             <input type="checkbox" id="menu_opener" class="mobile mobile_check">
             <lable class="hamburger-lines" id="menu_opener">
@@ -41,18 +41,34 @@
                 <li class="under_menu"><a href="#service">Services</a></li>
                 <li class="under_menu"><a href="#work">Projects</a></li>
                 <li class="under_menu"><a href="#about">A propos</a></li>
-                <li class="btn_around"><a href="#contact" class="cta_nav btn"><span>Me contacter</span></a></li>
+                <li class=""><a href="#contact" class="nav_cta"><span>Me Contacter</span></a>
+                </li>
                 <!-- <li><img src="img/mdi_facebook.png" alt="Facebook"></li>-->
                 <!--<li><img src="img/mdi_instagram.png" alt="Instagram"></li> -->
                 <!--<li><a href="https://twitter.com/spectrum_wise" target="_blank"><img src="img/mdi_twitter.png" alt="Twitter"></a></li>-->
             </ul>
         </nav>
 
-        <p class="main_catch">Bonjour, je m'appelle Céline et je suis<br> <span class="text_gad">UX / UI designer</span></p>
 
+        <div class="title_sec">
 
-        <a href="#contact" class="main_cta"><span>Mes projets</span></a>
-        <a href="#contact" class="sub_cta"><span>Me Contacter</span></a>
+            <div>
+                <div class="btn-box">
+
+                    <img src="./img/pps.png" alt="" class="pp">
+
+                    <p class="sub_catch">Hello, je suis Céline 👋</p>
+                    <p class="main_catch">Je suis <span class="text_gad">UX / UI designer</span>, passionée et disponible pour de nouveaux projets.<br></p>
+<!-- 
+                    <a href="#contact" class="sub_cta"><span>Mes projets</span></a> -->
+                    <a href="#contact" class="main_cta"><span>Me Contacter</span></a>
+                </div>
+<!-- 
+                <img src="./img/gr1.png" alt="" class="top-img"> -->
+            </div>
+
+        </div>
+
 
 
 
@@ -61,23 +77,29 @@
     <main>
 
         <section class="serveces" id="service">
-            <h2>Services</h2>
 
-            <section class="flex service_liste">
+
+
+
+            <section class="UX_section">
+                <div class="flex">
+                    <div class="service_img">
+                        <img src="./img/ux.png" alt="">
+                    </div>
                 <div class="flex service_text">
                     <div><span class="num">01</span></div>
                     <div>
-                        <h3>UX Design</h3>
+                        <h3>User Experiance</h3>
                         <p class="headline">
-                            Offer the best possible experience to your customers
+                            Offez la meilleur experiance possible à vos utilisateur
                         </p>
 
                         <p>
-                            Our designers have an outstanding knowledge of UX/UI and web accessibility. They will create a unique pixel-perfect design for your website to represent your brand and provide the best customer experience.
+                            L’UX design est une démarche de conception centrée sur l’utilisateur : ses besoins, ses contraintes, ses habitudes, ses attentes… L’objectif est de créer des interfaces qui répondent au mieux aux caractéristiques des utilisateurs finaux dans les différents contextes d’usages afin d’améliorer leur expérience durant l’utilisation de l’outil.
                         </p>
 
-                        <div class="btn_around">
-                            <div class="cta_nav btn">
+                        <div class="">
+                            <div class="main_cta">
                                 <span>
                                     <a href="#contact">Contact</a>
                                 </span>
@@ -85,26 +107,29 @@
                         </div>
                     </div>
                 </div>
-                <div class="service_img">
-                    <img src="./img/ux_ui.svg" alt="">
                 </div>
             </section>
 
-            <section class="flex service_liste rev">
+
+            <section class="UX_section">
+                <div class="flex rev">
+                    <div class="service_img">
+                        <img src="./img/ux.png" alt="">
+                    </div>
                 <div class="flex service_text">
                     <div><span class="num">02</span></div>
                     <div>
-                        <h3>Brand Visual</h3>
+                        <h3>User Interface</h3>
                         <p class="headline">
-                            Stand out with a consistent brand and great visuals
+                            Un design unique pour vos applications et interface dégitale.
                         </p>
 
                         <p>
-                            Our team of graphic designers will help you stand out among others by creating meaningful brand elements, such as logo, colour, image, shape, graphics and typography.
+                            L’UI Designer apporte une vision artistique en créant des maquettes pixel perfect à partir de demandes clients ou de wireframes réalisées en amont. C’est lui qui va transmettre l’image de la marque en  choisissant les typographies, les couleurs, les icônes qui rendront l’interface plus séduisante et agréable à utiliser. Grâce à ses effets visuels, il permet de mettre en évidence les éléments importants, de faciliter la lecture et de susciter des émotions positives chez l’utilisateur.
                         </p>
 
-                        <div class="btn_around">
-                            <div class="cta_nav btn">
+                        <div class="">
+                            <div class="main_cta">
                                 <span>
                                     <a href="#contact">Contact</a>
                                 </span>
@@ -112,35 +137,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="service_img">
-                    <img src="./img/gd.svg" alt="">
-                </div>
-            </section>
-
-            <section class="flex service_liste cr">
-                <div class="flex service_text">
-                    <div><span class="num">03</span></div>
-                    <div>
-                        <h3>Customer Relationship</h3>
-                        <p class="headline">
-                            Build trust and connection with your customer
-                        </p>
-
-                        <p>
-                            Our marketing team will be able to support you in building long-term relationships with your customers by conducting research and creating custom marketing and communication solutions for your brand.                        </p>
-                        </p>
-                    
-                        <div class="btn_around">
-                            <div class="cta_nav btn">
-                                <span>
-                                    <a href="#contact">Contact</a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="service_img">
-                    <img src="./img/cr.svg" alt="">
                 </div>
             </section>
 
@@ -193,27 +189,21 @@
 
                 <div class="mail_infos">
                     <p class="catchy">
-                        We’d love to hear from you
+                        Et si on collabiarait ? 
                     </p>
 
                     <p class="sub_t">
-                        info@spectrumwise.tech
+                        enid-bc@gmail.com
                     </p>
 
                     <div class="work_btn">
-                        <div class="btn_around">
-                            <div class="cta_nav btn">
-                                <span>
-                                    <a href="mailto:info@spectrumwise.tech" target="_blank">Send an email</a>
-                                </span>
-                            </div>
-                        </div>
+                                    <a href="mailto:info@spectrumwise.tech" class="main_cta" target="_blank">Envoyer un e-maill</a>
                     </div>
                 </div>
 
 
                     <section class="social">
-                        <h3 class="social_title">Follow Us</h3>
+                        <h3 class="social_title">Suivez moi</h3>
         
                         <a href="https://www.instagram.com/spectrumwise_official/" target="_blank">
                             <img src="./img/insta.svg" alt="Instagram">
@@ -232,9 +222,6 @@
         </div>
 
     </main>
-    <footer>
-        <p>© 2022 SpectrumWise Ltd. All right reserved.</p>
-    </footer>
 
     <script src="./js/app.js"></script>
 </body>
