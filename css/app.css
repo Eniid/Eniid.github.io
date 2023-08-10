@@ -443,6 +443,7 @@ nav .home_li a::after {
   display: -ms-flexbox;
   display: flex;
   /* justify-content: space-between; */
+  /* flex-direction: column; */
 }
 
 h1{
@@ -746,9 +747,35 @@ footer{
 }
 
 
-
+.ban_img-mob{
+  display: none;
+}
 
 @media (max-width: 1000px) {
+
+.dif_sec .contact {
+  background-image: none;
+}
+
+  .num {
+    display: none;
+  }
+  .flex, .rev {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header .ban_img{
+    display: none;
+  }
+
+  .ban_img-mob{
+    display: block;
+    width: 80vw;
+    margin: auto;
+    display: inherit;
+    max-width: 150rem;
+  }
 
   html{
     font-size: 8px;
@@ -1097,4 +1124,20 @@ section {
     opacity:1;
     transform: translateY(0px);
     transition: transform 1s;
+}
+
+
+
+
+
+@media (max-width: 1000px) {
+
+  .img_mid {
+    transform: scale(1.1);
+  }
+
+  .work_imgs img {
+    width: 100%;
+    padding-top: 0rem;
+}
 }
