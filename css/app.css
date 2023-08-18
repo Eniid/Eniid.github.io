@@ -54,7 +54,7 @@ table {
 }
 
 html {
-  background-color: #010418;
+  background-color: #090517;
   font-size: 10px;
   scroll-behavior: smooth;
   color: #f7f9ff;
@@ -726,6 +726,8 @@ footer{
 
 .dif_sec{
   /* background-color: #212121; */
+  /* margin-top: 4rem; */
+  padding-top: 16rem;
 }
 
 .gradient_img img{
@@ -993,6 +995,8 @@ section {
   border-radius: 2rem;
   padding: 4rem;
   margin: 3rem auto 10rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .service_img img{max-width: 38rem;}
@@ -1183,3 +1187,6 @@ section {
   }
 }
 
+b{
+  font-weight: 600;
+}
