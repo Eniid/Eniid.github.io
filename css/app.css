@@ -615,6 +615,7 @@ h3 {
 
 .serveces {
   padding-top: 16rem;
+  /* padding-bottom: 0; */
   /* margin: -15rem auto 0; */
 }
 
@@ -1135,6 +1136,35 @@ section {
 
 
 @media (max-width: 1000px) {
+
+
+  .title_sec{
+    padding: 4rem;
+  }
+
+
+  .UX_section {
+
+    padding: 0rem;
+
+}
+
+  .about {
+    /* background-image: url(../img/names.svg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0rem 4rem 16rem;
+} 
+  .serveces {
+    padding-bottom: 0;
+}
+
+  .dif_sec {
+    /* background-color: #212121; */
+    /* margin-top: 4rem; */
+    padding-top: 0rem;
+}
+
 
   .img_mid {
     transform: scale(1.1);
