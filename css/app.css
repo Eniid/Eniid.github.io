@@ -339,6 +339,7 @@ nav .home_li a::after {
     right: 30px;
     padding: 2rem 0;
     opacity: 0;
+    /* display: none; */
   }
   .nav-container .hamburger-lines {
     display: block;
@@ -1136,7 +1137,9 @@ section {
 
 
 @media (max-width: 1000px) {
-
+  .nav-container .hamburger-lines{
+    display: none;
+  }
 
   .title_sec{
     padding: 4rem;
