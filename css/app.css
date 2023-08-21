@@ -471,6 +471,7 @@ section {
   margin-top: 1rem;
   /* padding: 15rem 19rem; */
   max-width: 150rem;
+  max-width: 159rem;
   margin: auto;
   /* margin-top: 10rem; */
 }
@@ -564,9 +565,10 @@ h3 {
   margin: 5rem;
   border-radius: 3rem;
   background-color: white;
-  width: 80vw;
+  /* width: 80vw; */
+  width: 81vw;
   border-radius: 2rem;
-  padding: 4rem;
+  /* padding: 4rem; */
   margin: 4rem auto;
 }
 
@@ -1015,7 +1017,7 @@ section {
 
 
 .ban_img{
-  width: 80vw;
+  width: 85.5vw;
   margin: auto;
   display: inherit;
   max-width: 150rem;
