@@ -184,18 +184,18 @@ nav a {
 }
 
 nav a::after {
-  /* content: ""; */
-  /* position: absolute; */
-  /* bottom: -1rem; */
-  /* left: 0; */
-  /* width: 100%; */
-  /* height: 0.1em; */
-  /* background-color: #ffffff; */
-  /* opacity: 0; */
-  /* -webkit-transition: opacity 300ms, -webkit-transform 300ms; */
-  /* transition: opacity 300ms, -webkit-transform 300ms; */
-  /* transition: opacity 300ms, transform 300ms; */
-  /* transition: opacity 300ms, transform 300ms, -webkit-transform 300ms; */
+  content: ""; 
+  position: absolute;
+  bottom: -1rem; 
+  left: 0; 
+  width: 100%; 
+  height: 0.1em; 
+  background-color: #ffffff; 
+  opacity: 0; 
+  -webkit-transition: opacity 300ms, -webkit-transform 300ms; 
+  transition: opacity 300ms, -webkit-transform 300ms; 
+  transition: opacity 300ms, transform 300ms; 
+  transition: opacity 300ms, transform 300ms, -webkit-transform 300ms;
 }
 
 nav li a {
@@ -623,7 +623,7 @@ h3 {
 }
 
 .catchy {
-  font-size: 6REM;
+  font-size: 2.5rem;
   font-weight: 600;
   padding: 1.5rem;
   line-height: 6rem;
@@ -644,9 +644,9 @@ h3 {
 }
 
 .mail_infos .sub_t {
-  font-size: 2.4rem;
+  font-size: 6rem;
   font-weight: 700;
-  PADDING: 3rem;
+  PADDING: 0 3rem 3rem 3rem;
 }
 
 .contact .work_btn {
@@ -841,11 +841,11 @@ section {
 
 
 .catchy {
-  font-size: 4rem;
+  font-size: 1.5rem;
 }
 
 .mail_infos .sub_t {
-    font-size: 1.5rem;
+    font-size: 5rem;
     font-weight: 700;
 }
 
