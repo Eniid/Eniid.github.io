@@ -930,6 +930,7 @@ section {
   /* background-image: url(../img/bg1.png); */
   background-repeat-x: repeat;
   background-size: 150rem;
+  margin-bottom: 5rem;
 }
 
 
