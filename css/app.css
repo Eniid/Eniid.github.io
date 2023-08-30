@@ -1225,3 +1225,163 @@ section {
 b{
   font-weight: 600;
 }
+
+
+
+.langage{
+  display: flex;
+  background-color: #140e2b;
+  /* width: 6rem; */
+  padding: .5rem;
+  border: 1px white solid;
+  border-radius: 1rem;
+  justify-content: space-around;
+  font-size: 1.5rem;
+  margin: 1rem 3rem 1rem 0;
+  align-content: stretch;
+}
+
+.selected_l{
+  color: #9fb5cd;
+  border: 1px #9fb5cd solid;
+  background-color: #84c5e240;
+  border-radius: .7rem;
+  /* padding: .9rem 2rem; */
+}
+
+.langage div a{
+  padding: 0.9rem 2rem;
+}
+
+
+
+.lang_box{position: relative;top: 4.4rem;right: -3rem;}
+
+.lang{
+  /* background-color: white; */
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  right: 7rem;
+  border: 1px solid;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  padding: .5rem 0;
+  background-color: #09051596;
+  /* height: 5rem; */
+  /* padding: 4rem 0; */
+  /* color: white; */
+  /* position: fixed; */
+  z-index: 1000000000000000000;
+}
+.lang li{
+  padding: 0rem;
+}
+
+.lang .selected{
+  color: #ff9178;
+  padding: 1rem 3rem;
+
+}
+.lang a {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+}
+
+.lang a:hover{
+  transform: scale(1.05);
+}
+
+.lang_view{
+  color: white;
+  position: relative;
+  top: -.5rem;
+}
+
+.open_lang{
+  cursor: pointer;
+  padding: 3rem .5rem;
+}
+
+
+.lang{
+opacity: 0;
+cursor: default;
+pointer-events: none;
+}
+
+#open_lang:checked ~ .nav_bar .lang_box .lang {
+  opacity: 1;
+}
+
+
+#open_lang:checked ~ .nav_bar .lang_box .lang a{
+  opacity: 1;
+  cursor: pointer;
+  pointer-events: visible;
+}
+
+
+
+
+.opener_text{
+  cursor: default;
+  pointer-events: none;
+}
+
+/* lang */
+
+
+
+
+.current {
+text-transform: uppercase;
+position: relative;
+z-index: 1;
+font-size: 1rem;
+text-align: center;
+display: flex;
+background-color: rgba(0, 0, 0, 0);
+transition: all .2s ease-out;
+border-radius: 3px;
+padding: 0 .2em 0 .7em;
+
+}
+
+.current span {
+  display: inline-block;
+  line-height: 1;
+  padding: .7em .2em 0 0;
+}
+
+.current .arrow {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.current &:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+
+.options {
+
+position: absolute;
+right: 0;
+top: .6em;
+
+z-index: 0;
+opacity: 0;
+
+transition: all .36s ease-out;
+display: none;
+overflow: hidden;
+box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+}
+.options  .switch.show-options & {
+  display: block;
+  z-index: 5;
+}
+
+
