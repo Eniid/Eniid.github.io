@@ -34,6 +34,10 @@ body {
   line-height: 1;
 }
 
+.none{
+  display: none;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -168,6 +172,7 @@ nav li a {
 
 nav li a span {
   font-weight: 500;
+  color: #ff9178;
   /* position: relative; */
   /* top: 1rem; */
 }
@@ -271,7 +276,7 @@ nav .home_li a::after {
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .mobile {
     display: block;
     z-index: 100000000000;
@@ -518,6 +523,7 @@ h2 {
   letter-spacing: .7rem;
   color: #d4d4d4;
   margin-top: 5rem;
+  /* display: none; */
 }
 
 h3 {
@@ -570,28 +576,42 @@ h3 {
   border-radius: 2rem;
   /* padding: 4rem; */
   margin: 4rem auto;
+  background-image: url(../img/bg.png);
 }
 
 .work_imgs {
   display: -webkit-box;
   display: -ms-flexbox;
-  /* display: flex; */
-  width: 100%;
+  row-gap: 10%;
+  row-gap: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 85vw;
+  max-width: 100%;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
-  margin: 8rem auto;
+  justify-content: space-between;
+  margin: 8rem auto 3rem;
   text-align: center;
+  /* padding: 4rem; */
+  /* margin: 3rem 15rem 15rem 15rem; */
 }
 
 .work_imgs img {
-  width: 30%;
+  max-width: 450px;
+  width: 100%;
+  /* padding: 0 10px 0 0; */
   height: auto;
-  border-radius: 2rem;
-  border: 1px solid;
+  border-radius: 1rem;
+  margin: 0 0 30px 0;
+  /* border: 1px solid; */
+  filter: saturate(40%);
+  /* filter: hue-rotate(84deg); */
+  /* filter: saturate(100%); */
 }
 
 .work_btn {
   text-align: center;
+  margin-bottom: 10rem;
 }
 
 .work_btn .btn_around {
@@ -603,7 +623,7 @@ h3 {
   /* background-image: url("../img/names.svg"); */
   background-repeat: no-repeat;
   background-position: center;
-  padding: 16rem 0;
+  padding: 16rem 0 9rem;
 }
 
 .about p {
@@ -617,9 +637,10 @@ h3 {
 }
 
 .serveces {
-  padding-top: 16rem;
+  /* padding-top: 16rem; */
   /* padding-bottom: 0; */
   /* margin: -15rem auto 0; */
+  margin-top: 18rem;
 }
 
 .catchy {
@@ -628,7 +649,7 @@ h3 {
   padding: 1.5rem;
   line-height: 6rem;
   letter-spacing: .1rem;
-  color: #000000;
+  color: #ffffff;
   display: inline-block;
   /* background: -webkit-linear-gradient(142deg, #e1988f 0%, #a8929d 50%, #8494c1 100%); */
   /* -webkit-background-clip: text; */
@@ -703,7 +724,7 @@ h3 {
   text-transform: uppercase;
   font-weight: 300;
   letter-spacing: 20%;
-  color: #000;
+  color: #fff;
 }
 
 .social {
@@ -718,6 +739,7 @@ h3 {
 
 .social a img {
   margin: 4rem 2rem 0 2rem;
+  width: 50px;
 }
 
 
@@ -731,7 +753,7 @@ footer{
 .dif_sec{
   /* background-color: #212121; */
   /* margin-top: 4rem; */
-  padding-top: 16rem;
+  /* padding-top: 16rem; */
 }
 
 .gradient_img img{
@@ -757,10 +779,10 @@ footer{
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 
 .dif_sec .contact {
-  background-image: none;
+  /* background-image: none; */
 }
 
   .num {
@@ -769,6 +791,7 @@ footer{
   .flex, .rev {
     flex-direction: column;
     align-items: center;
+    padding: 10rem 5rem 5rem;
   }
 
   header .ban_img{
@@ -793,7 +816,7 @@ footer{
 
 
   section {
-    padding: 15rem 10rem;
+    /* padding: 15rem 10rem; */
   }
   
   .service_text {
@@ -817,8 +840,6 @@ footer{
 }
 
 
-
-
 @media (max-width: 1000px) {
 
 .about {
@@ -826,7 +847,8 @@ footer{
 }
 
 section {
-  padding: 15rem 4rem;
+  /* padding: 15rem 4rem; */
+  margin-top: -10rem;
 }
 
 
@@ -861,7 +883,11 @@ section {
 
 }
 
-
+.work_imgs img:hover{
+  filter: saturate(100%);
+  transition: .5s;
+  /* transition: cubic-bezier(0.75, 0.82, 0.165, 10); */
+}
 
 /*# sourceMappingURL=app.css.map */
 
@@ -996,12 +1022,14 @@ section {
 
 .UX_section{
   /* background-color: #ffffff; */
-  width: 80vw;
+  max-width: 80vw;
   border-radius: 2rem;
   padding: 4rem;
   margin: 3rem auto 10rem;
   margin-bottom: 0;
   padding-bottom: 0;
+  background-color: #1B1B37;
+  border-radius: 20px;
 }
 
 .service_img img{max-width: 38rem;}
@@ -1013,7 +1041,7 @@ section {
 }
 
 .sub_t{
-  color: #000000;
+  color: #ff9179;
 }
 
 
@@ -1041,7 +1069,7 @@ section {
 
 
 .contact h2 {
-  color: black;
+  color: white;
 }
 
 
@@ -1064,8 +1092,8 @@ section {
 
 
 .contact{
-  background-image: url(../img/left.png), url(../img/right.png);
-  background-size: contain;
+  /* background-image: url(../img/left.png), url(../img/right.png); */
+  background-size: cover;
   background-position: inherit;
   background-position: left,right;
   background-repeat: no-repeat;
@@ -1074,16 +1102,16 @@ section {
 
 
 .contact .sub_cta{
-  background-color: #011878;
-  /* color: black; */
+  background-color: #ffffff;
+  color: black;
 }
 
 .img_mid{
-  transform: scale(1.2);
+  /* transform: scale(1.2); */
 }
 
 .subpar{
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 
 
@@ -1119,6 +1147,8 @@ section {
 
 .animation_suite {
     opacity:1;
+    /* margin-top: 16rem; */
+    /* max-width: 100%; */
     transform: translateY(0px);
     transition: transform 3s cubic-bezier(0.075, 0.82, 0.165, 1);
     transition: 1.5s cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -1139,7 +1169,7 @@ section {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
   .nav-container .hamburger-lines{
     display: none;
   }
@@ -1160,6 +1190,7 @@ section {
     background-repeat: no-repeat;
     background-position: center;
     padding: 0rem 4rem 16rem;
+    margin-top: 17rem;
 } 
   .serveces {
     padding-bottom: 0;
@@ -1178,9 +1209,22 @@ section {
 
   .work_imgs img {
     width: 100%;
+    max-width: 1000rem;
     padding-top: 0rem;
 }
 }
+
+
+
+
+
+@media (max-width: 1600px) {
+
+  .work_imgs img {width: 100%;/* max-width: 550px; */}
+
+}
+
+
 
 @media (max-width: 650px) {
 
@@ -1386,6 +1430,49 @@ box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 
 
-.work_imgs a img{ 
-border: none, 
+.work_imgs a img{border: none,;}
+
+
+
+
+
+.case_study{
+  margin-top: 19rem;
+}
+
+
+
+
+
+
+
+
+/* Light Box */ 
+
+.lightbox{
+  display: flex;
+  position: absolute;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:rgba(0,0,0,.5);
+  z-index: 1000;
+}
+.lightbox img{
+  max-width: 80vw;
+  max-height: 80vh;
+}
+.lightboxContainer{
+  background-color: #fff;
+  padding: 1em;
+}
+#lightbox{
+  display: none;
+}
+#lightbox:not(:checked) ~ .lightbox{
+  display: none;
 }
