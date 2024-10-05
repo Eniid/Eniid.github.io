@@ -138,6 +138,7 @@ section .btn span a {
   position: absolute;
   top: 0rem;
   margin: 0;
+  height: 60px;
   justify-content: flex-end;
 }
 
@@ -147,9 +148,9 @@ nav {
   display: -ms-flexbox;
   display: flex;
   /* max-width: 150rem; */
-  background-color: #09051596;
+  background-color: #09051769;
   /* height: 5rem; */
-  padding: 4rem 0;
+  padding: 2rem 0;
   color: white;
   position: fixed;
   z-index: 1000000000000000000;
@@ -171,8 +172,8 @@ nav li a {
 }
 
 nav li a span {
-  font-weight: 500;
-  color: #ff9178;
+  /* font-weight: 500; */
+  /* color: #ff9178; */
   /* position: relative; */
   /* top: 1rem; */
 }
@@ -210,6 +211,7 @@ nav li a {
 
 nav .under_menu a {
   padding: 0 1rem;
+  font-size: 1.5rem;
 }
 
 nav li a::after {
@@ -416,7 +418,7 @@ nav .home_li a::after {
 }
 
 .main_catch {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 400;
   max-width: 81rem;
   /* font-weight: lighter; */
@@ -791,7 +793,8 @@ footer{
   .flex, .rev {
     flex-direction: column;
     align-items: center;
-    padding: 10rem 5rem 5rem;
+    padding: 5rem 0rem 5rem;
+    width: 100wv;
   }
 
   header .ban_img{
@@ -1041,7 +1044,7 @@ section {
 }
 
 .sub_t{
-  color: #ff9179;
+  color: #ffffff;
 }
 
 
@@ -1215,6 +1218,14 @@ section {
 }
 
 
+.bg_top{
+  position: absolute;
+  top : 0;
+  z-index: -100;
+  right: 0;
+  left: 0;
+  width: 100vw;
+}
 
 
 
@@ -1436,7 +1447,7 @@ box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 
 
 
-.case_study{
+.work{
   margin-top: 19rem;
 }
 
