@@ -148,7 +148,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   /* max-width: 150rem; */
-  background-color: #09051769;
+  background-color: #09051700;
   /* height: 5rem; */
   padding: 2rem 0;
   color: white;
@@ -947,12 +947,12 @@ section {
 
 .btn-box{
   text-align: center;
-  margin-top: 15rem;
+  /* margin-top: 15rem; */
 }
 
 
 .title_sec{
-  height: 76vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

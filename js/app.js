@@ -111,3 +111,28 @@ document.addEventListener("click", e=>{
         checkbox.checked = false
     }
 })
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const emailElement = document.getElementById("copyEmail");
+
+  if (emailElement) {
+    emailElement.addEventListener("click", () => {
+      const email = emailElement.innerText;
+
+      navigator.clipboard.writeText(email)
+        .then(() => {
+          emailElement.classList.add("copied");
+          emailElement.innerText = "Copié ! 📋";
+
+          setTimeout(() => {
+            emailElement.innerText = email;
+            emailElement.classList.remove("copied");
+          }, 1500);
+        })
+        .catch(err => {
+          alert("Erreur lors de la copie : " + err);
+        });
+    });
+  }
+});
