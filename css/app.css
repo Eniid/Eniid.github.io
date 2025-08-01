@@ -1557,3 +1557,45 @@ box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   color: #fff;
   font-weight: 200;
 }
+
+
+
+
+.work_imgs a {
+  position: relative;
+  display: inline-block; /* pour que le span reste au-dessus de l’image uniquement */
+}
+
+.img_lable {
+  position: absolute;
+  bottom: 40px;
+  right: 8px;
+  background: rgb(63, 4, 4);
+  color: #fff;
+  padding: 5px 15px;
+  font-size: 12px;
+  border-radius: 20px;
+  pointer-events: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+.work_imgs a:hover .img_lable {
+  background: rgb(124, 14, 14);
+
+}
+
+.png {
+  background-color: #042517;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+
+.work_imgs a:hover .png {
+  background-color: #0a452c;
+
+}
+
