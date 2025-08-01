@@ -594,6 +594,8 @@ h3 {
   justify-content: space-between;
   margin: 8rem auto 3rem;
   text-align: center;
+  justify-content: center;
+  column-gap: 30px;
   /* padding: 4rem; */
   /* margin: 3rem 15rem 15rem 15rem; */
 }
@@ -1570,7 +1572,7 @@ box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   position: absolute;
   bottom: 40px;
   right: 8px;
-  background: rgb(63, 4, 4);
+  background: #090517;
   color: #fff;
   padding: 5px 15px;
   font-size: 12px;
@@ -1583,19 +1585,19 @@ box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 
 
 .work_imgs a:hover .img_lable {
-  background: rgb(124, 14, 14);
+  background: rgb(58, 4, 4);
 
 }
 
 .png {
-  background-color: #042517;
+  background-color: #090517;
   transition: background-color 0.3s ease, color 0.3s ease;
 
 }
 
 
 .work_imgs a:hover .png {
-  background-color: #0a452c;
+  background-color: #032215;
 
 }
 
