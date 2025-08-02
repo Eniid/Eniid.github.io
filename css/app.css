@@ -1588,6 +1588,11 @@ box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 }
 
 
+.work_imgs a:hover {
+    transform: scale(1.05);
+    transition: transform 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
 .work_imgs a:hover .img_lable {
   background: rgb(58, 4, 4);
 
