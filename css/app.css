@@ -944,7 +944,7 @@ section {
   border: solid white 1px;
   padding: 2rem 6rem;
   border-radius: 16px;
-  margin: 2rem 2rem 2rem 0;
+  /* margin: 2rem 2rem 2rem 0; */
   color: rgb(255 255 255);
   font-weight: 600;
   text-decoration: none;
@@ -1258,7 +1258,7 @@ section {
 
 
   .main_catch span {
-    font-size: 5rem;
+    font-size: 3rem;
     /* line-height: 1.5; */
     /* margin-bottom: 2rem; */
   }
@@ -1605,3 +1605,29 @@ box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
 
 }
 
+
+
+
+@media (max-width: 650px) {
+  .mail_infos .sub_t {
+    font-size: 30px;
+    font-weight: 700;
+}
+}
+
+
+
+@media (max-width: 400px) {
+  .mail_infos .sub_t {
+    font-size: 25px;
+    font-weight: 700;
+}
+}
+
+
+@media (max-width: 360px) {
+  .mail_infos .sub_t {
+    font-size: 16px;
+    font-weight: 700;
+}
+}
